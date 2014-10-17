@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/johannv/nimbus.git',
     :tag => '1.2.11'
   }
-  s.source_files = 'Source/*.{h,m}'
+  s.source_files = 'src/attributedlabel/src', 'src/attributedlabel/src/**/*.{h,m}'
 end
